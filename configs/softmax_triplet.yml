@@ -1,5 +1,5 @@
 MODEL:
-  PRETRAIN_PATH: '/export/home/lxy/.torch/models/resnet50-19c8e357.pth'
+  PRETRAIN_PATH: '/mnt/lustre/renjiawei/.torch/models/resnet50-19c8e357.pth'
 
 
 INPUT:
@@ -40,6 +40,6 @@ TEST:
   IMS_PER_BATCH: 256
   WEIGHT: "path"
 
-OUTPUT_DIR: "/export/home/lxy/CHECKPOINTS/reid/market1501/softmax_triplet_bs128_384x128"
+OUTPUT_DIR: "/mnt/lustre/renjiawei/reid_baseline/logs/market1501/softmax_triplet_bs128_384x128"
 
 
